@@ -21,6 +21,8 @@ class QuizBrain:
             print("You got it right!")
             print(f'The correct answer was: {answer}.')
             print(f'Your current score is {self.score}/{self.question_number}\n')
+            if self.question_number == len(self.question_list):
+                print('You have completed the quiz!')
         else:
             print("That's wrong!")
             print(f'The correct answer was: {answer}.')

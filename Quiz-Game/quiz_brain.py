@@ -16,7 +16,7 @@ class QuizBrain:
                            f"(True/False)? ")
         self.check_for_true(this_question.answer, guess)
     def check_for_true(self, answer, guess):
-        if answer == guess:
+        if answer.lower() == guess.lower():
             self.score += 1
             print("You got it right!")
             print(f'The correct answer was: {answer}.')

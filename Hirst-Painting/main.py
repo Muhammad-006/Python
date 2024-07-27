@@ -2,7 +2,6 @@ import turtle
 from turtle import Turtle, Screen
 import random
 turtle.colormode(255)
-import colorgram
 
 color = [(236, 244, 250), (236, 224, 80), (197, 7, 71), (195, 164, 13), (201, 75, 15), (231, 54, 132),
          (110, 179, 216), (217, 163, 101), (27, 105, 168),(35, 186, 109), (19, 29, 168), (13, 23, 66)]

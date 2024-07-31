@@ -1,6 +1,6 @@
 #TODO: Create a letter using starting_letter.txt
 with open('./Input/Names/invited_names.txt', mode='r')as names:
-    names_to_use = names.read().split()
+    names_to_use = names.read().split('\n')
 with open('./Input/Letters/starting_letter.txt', mode='r')as letter_prototype:
     words_to_use = letter_prototype.read()
     for name in names_to_use:

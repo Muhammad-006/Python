@@ -31,6 +31,14 @@ class Snake:
             self.snake_size[i].goto(x, y)
         self.head_of_snake.forward(MOVING_DISTANCE)
 
+    def reset_snake(self):
+        for piece in self.snake_size:
+            piece.goto(1000, 1000)
+        self.snake_size.clear()
+        self.create_snake()
+        self.head_of_snake = self.snake_size[0]
+        self.head_of_snake.shape("turtle")
+
     def up(self):
         if self.head_of_snake.heading() != 270:
             self.head_of_snake.setheading(90)
@@ -46,3 +54,5 @@ class Snake:
     def right(self):
         if self.head_of_snake.heading() != 180:
             self.head_of_snake.setheading(0)
+
+

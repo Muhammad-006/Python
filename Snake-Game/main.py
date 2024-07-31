@@ -33,16 +33,15 @@ while game_on_hay:
 
     if (snake.head_of_snake.xcor() > 224.75 or snake.head_of_snake.xcor() < -225 or
             snake.head_of_snake.ycor() > 315 or snake.head_of_snake.ycor() < -315):
-        score.game_over()
-        game_on_hay = False
+        score.reset_game()
+        snake.reset_snake()
+        time.sleep(2)
 
     for position in snake.snake_size[1:-1]:
         if snake.head_of_snake.distance(position) < 10:
-            score.game_over()
-            game_on_hay = False
-
-
-
+            score.reset_game()
+            snake.reset_snake()
+            time.sleep(2)
 
 screen.exitonclick()
 

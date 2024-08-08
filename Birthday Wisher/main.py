@@ -3,7 +3,7 @@ import random
 import datetime as dt
 import smtplib
 
-my_email = 'MuhammadhBilal717@gmail.com'
+my_email = 'Sending_test@gmail.com'
 Password = 'wdhk xwao vryq qhnc'
 
 letter_list = ['letter_templates/letter_1.txt', 'letter_templates/letter_2.txt', 'letter_templates/letter_3.txt']

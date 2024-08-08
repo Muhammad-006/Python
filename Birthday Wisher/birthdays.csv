@@ -1,7 +1,5 @@
 name,email,year,month,day
-Mama,Hamza.Bilal.Nadeem.2017@gmail.com,1987,8,5
-Papa,MBilal.Nadeem236@gmail.com,1991,3,12
-Ifra,Hamza.Bilal.Nadeem.2017@gmail.com,2007,6,5
-Bilal,MBilal.Nadeem236@gmail.com,2005,2,23
-Eyman Shafiq,Hamza.Bilal.Nadeem.2017@gmail.com,2005,2,21
-Muhammad,Hamza.Bilal.Nadeem.2017@gmail.com,2005,2,22
+Mama,Test@gmail.com,1987,8,5
+Papa,Test@gmail.com,1991,3,12
+Bilal,Test@gmail.com,2005,2,23
+Muhammad,Test@gmail.com,2005,2,22

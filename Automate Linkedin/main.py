@@ -8,15 +8,6 @@ from dotenv import load_dotenv
 from selenium.common.exceptions import NoSuchElementException
 import os, time
 
-cover_letter = ("I am writing to express my interest in the Python Developer position at [Company Name]. "
-                "With a solid foundation in Python, experience in building scalable applications, and a "
-                "passion for problem-solving, I am confident in my ability to contribute effectively to "
-                "your team. I have worked on diverse projects, including data processing, automation, and"
-                " web development, and am eager to bring my expertise to [Company Name]. I look forward to"
-                " the opportunity to further discuss how my skills align with your needs.)"
-                "\nSincerely,"
-                "\nMuhammad Bilal")
-
 button_easy = "button[class='jobs-apply-button artdeco-button artdeco-button--3 artdeco-button--primary ember-view']"
 load_dotenv()
 
